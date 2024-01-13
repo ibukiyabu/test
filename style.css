@@ -1,0 +1,143 @@
+html {
+    font-size: 62.5%;
+    margin: auto;
+    max-width: 75%;
+
+    @media (max-width: 1006px) {
+        max-width: 100%;
+    }
+}
+
+.logo{
+    width: 20%;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    font-size: 1.5rem;
+    background-color: black;
+    color: rgb(155, 155, 155);
+    margin: 0;
+    padding: 1rem;
+
+    @media (max-width: 758px) {
+        font-size: 1.2rem;
+    }
+}
+
+li{
+    margin: 0 1.5rem;
+}
+
+li:nth-child(1){
+    margin-right: 5rem;
+}
+
+
+li:nth-child(6){
+    margin-left: 5rem;
+}
+
+.container{
+    display: flex;
+}
+
+.catch img{
+    width: 100%;
+}
+
+
+.di{
+    font-size: 1.3rem;
+    padding-left: 1rem;
+    margin: 0;
+    margin: 0rem;
+    padding-top: 0.5rem;
+}
+
+
+.title{
+    font-size: 2rem;
+    border-left: 0.6rem solid black;
+    border-bottom: 0.2rem solid;
+}
+
+
+.day{
+    font-weight: bold;
+    color: gray;
+}
+
+.airticle{
+    width: 70%;
+}
+
+.airticle-box{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    background-color: rgb(211, 211, 211);
+}
+
+.book{
+    width: 23%;
+    padding: 0.4rem;
+}
+
+.book img{
+    width: 100%;
+
+}
+
+.book p{
+    text-align: center;
+    margin: 0 auto 2.3rem;
+}
+
+.kizinakami{
+    font-size: 1.3rem;
+    padding: 1.1rem 0 0.5rem 1rem;
+    margin: 0;
+
+}
+
+.sidebar{
+    width: 30%;
+    margin-top: 3rem;
+}
+
+
+.links{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.links a{
+    text-decoration: none;
+    color: inherit;
+    margin-left: 2.5rem;
+    font-size: 1.3rem;
+}
+
+.subtitle{
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-bottom: 3px dotted gray ;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 1.3rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+footer p{
+    font-size: 1.2rem;
+    margin: 0;
+}
