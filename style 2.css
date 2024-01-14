@@ -1,0 +1,152 @@
+html {
+  font-size: 62.5%;
+  margin: auto;
+  max-width: 70%;
+
+  @media (max-width: 1075px) {
+    max-width: 100%;
+  }
+}
+
+.logo {
+  width: 20%;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  font-size: 1.5rem;
+  background-color: black;
+  color: rgb(155, 155, 155);
+  margin: 0;
+  padding: 1rem;
+
+  @media (max-width: 758px) {
+    font-size: 1.2rem;
+  }
+}
+
+li {
+  margin: 0 1.5rem;
+}
+
+li:nth-child(1) {
+  margin-right: 5rem;
+}
+
+li:nth-child(6) {
+  margin-left: 5rem;
+}
+
+.container {
+  display: flex;
+}
+
+.title {
+  font-size: 2rem;
+  border-left: 0.6rem solid black;
+  border-bottom: 0.2rem solid;
+}
+
+.main {
+  width: 70%;
+}
+
+.sidebar {
+  width: 30%;
+  margin-top: 1rem;
+}
+
+.postspace {
+  background-color: #fbfbfb;
+  border: 2px solid #dfdfdf;
+  margin-bottom: 2rem;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.name,
+.post-title {
+  width: 50%;
+  border: 1px solid #dfdfdf;
+  border-radius: 3px;
+  margin-bottom: 1.3rem;
+}
+
+textarea {
+  width: 70%;
+  border: 1px solid #dfdfdf;
+  border-radius: 3px;
+  margin-bottom: 2rem;
+}
+
+label {
+  font-size: 1.1rem;
+}
+
+.submit {
+  width: 7rem;
+}
+
+h2 {
+  border-left: 0.3rem solid red;
+  width: 80%;
+  margin-left: 1.5rem;
+  padding-left: 0.2rem;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 1.5rem;
+  border-bottom: 1px solid #dfdfdf;
+  margin-top: 0;
+}
+
+.history {
+  background-color: #fbfbfb;
+  border: 2px solid #dfdfdf;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contents {
+  font-size: 1.4rem;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  font-weight: bold;
+  border-bottom: 3px dotted gray;
+}
+
+.links {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.links a {
+  text-decoration: none;
+  color: inherit;
+  margin-left: 2.5rem;
+  font-size: 1.3rem;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 1.3rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+footer p {
+  font-size: 1.2rem;
+  margin: 0;
+}
